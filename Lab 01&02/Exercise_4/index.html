@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="../Exercise_4/css/styles.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <form action="" id="demoForm">
+        <div id="main">
+            <h2>Basic Info</h2>
+            <div class="info">
+                <div class="title-bold">
+                    <span>Employee ID</span>
+                </div>
+                <span>9</span>
+
+                <div class="title-bold">
+                    <span>Last Name</span>
+                </div>
+                <span>Dodsworth</span>
+
+                <div class="title-bold">
+                    <span>First Name</span>
+                </div>
+                <div class="input">
+                    <input type="text" class="class-width" name="firstname">
+                </div>
+
+                <div class="title-bold" style="align-content: center;">
+                    <span>Gender</span>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="radio" name="gender" id="xxx">
+                    <label for="xxx">XXX</label>
+                    <br>
+                    <input type="radio" name="gender" id="zzz">
+                    <label for="zzz">ZZZ</label>
+                </div>
+
+                <div class="title-bold">
+                    <span>Title</span>
+                </div>
+                <div class="input">
+                    <input type="text" name="title" id="title" class="class-width">
+                </div>
+
+                <div class="title-bold">
+                    <span>Suffix</span>
+                </div>
+                <div class="input">
+                    <input type="text" name="suffix" id="suffix" class="class-width">
+                </div>
+
+                <div class="title-bold">
+                    <span>BirthDate</span>
+                </div>
+                <input type="datetime-local" name="birthdate" id="birthdate" class="class-width">
+
+                <div class="title-bold">
+                    <span>HireDate</span>
+                </div>
+                <input type="datetime-local" name="hiredate" id="hiredate" class="class-width">
+
+                <div class="title-bold">
+                    <span>SSN # (if applicable)</span>
+                </div>
+                <input type="text" name="ssn" id="ssn" class="class-width">
+
+                <div class="title-bold">
+                    <span>Reports To</span>
+                </div>
+                <select name="reports" id="reports" class="class-width">
+                    <option value="Test1">Test1</option>
+                    <option value="Test2">Test2</option>
+                    <option value="Test3">Test3</option>
+                    <option value="Test4">Test4</option>
+                    <option value="Test5">Test5</option>
+                </select>
+            </div>
+
+            <h2>Contact Info</h2>
+            <div class="info">
+                <div class="title-bold">
+                    <span>Email</span>
+                </div>
+                <input type="text" name="email" id="email" class="class-width">
+
+                <div class="title-bold">
+                    <span>Address</span>
+                </div>
+                <input type="text" name="address" id="address" class="class-width">
+
+                <div class="title-bold">
+                    <span>City</span>
+                </div>
+                <input type="text" name="city" id="city" class="class-width">
+
+                <div class="title-bold">
+                    <span>Region</span>
+                </div>
+                <input type="text" name="region" id="region" class="class-width">
+
+                <div class="title-bold">
+                    <span>Portal Code</span>
+                </div>
+                <input type="text" name="portalcode" id="portalcode" class="class-width">
+
+                <div class="title-bold">
+                    <span>Country</span>
+                </div>
+                <select name="country" id="country" class="class-width">
+                    <option value="Test1">Test1</option>
+                    <option value="Test2">Test2</option>
+                    <option value="Test3">Test3</option>
+                    <option value="Test4">Test4</option>
+                    <option value="Test5">Test5</option>
+                </select>
+
+                <div class="title-bold">
+                    <span>US Home Phone</span>
+                </div>
+                <input type="text" name="ushomephone" id="ushomephone" class="class-width">
+
+                <div class="title-bold">
+                    <span>Photo</span>
+                </div>
+                <input type="file" name="photo" id="photo">
+            </div>
+
+            <h2>Optional Info</h2>
+            <div class="info">
+                <div class="title-bold">
+                    <span>Notes</span>
+                </div>
+                <input type="text" name="notes" id="notes" class="class-width">
+
+                <div class="title-bold">
+                    <span>Preferred Shift</span>
+                </div>
+                <div class="shift">
+                    <input type="checkbox" name="shift_regular" id="shift_regular">
+                    <label for="shift_regular">Regular</label>
+                    <br>
+                    <input type="checkbox" name="shift_graveyard" id="shift_graveyard">
+                    <label for="shift_graveyard">Graveyard</label>
+                </div>
+
+                <div class="title-bold">
+                    <span>Active?</span>
+                </div>
+                <div class="active">
+                    <input type="checkbox" name="active" id="active">
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="../Exercise_4/js/scripts.js"></script>
+</body>
+</html>

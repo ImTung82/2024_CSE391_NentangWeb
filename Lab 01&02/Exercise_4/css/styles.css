@@ -1,0 +1,28 @@
+#main {
+    width: 1000px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+body h2 {
+    border-bottom: 2px solid gray;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 15px;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.class-width {
+    width: 300px;
+}
+
+.error {
+    color: red;
+}
