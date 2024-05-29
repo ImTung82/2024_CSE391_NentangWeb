@@ -1,0 +1,39 @@
+td {
+    padding-right: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+
+header h1 {
+    border-left: 6px solid rgb(158, 29, 29);
+    color: rgb(158, 29, 29);
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.box {
+    width: 37rem;
+}
+
+.box h2 {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box i {
+    color: rgb(158, 29, 29);
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+
+.box span {
+    font-size: 18px;
+}
